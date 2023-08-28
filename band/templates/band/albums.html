@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Album List</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        body {
+            background-image: url("{% static 'background.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .list-container {
+            text-size-adjust: large;
+            font-size: larger;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            color: #f0f0f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="display-4">Album List</h1>
+                <ul class="list-container">
+                    <li>1. Forever.</li>
+
+                    <li>2. Headlines.</li>
+
+                    <li>3. Best I Ever Had.</li>
+
+                    <li>4. Over.</li>
+
+                    <li>5. Marvin's Room.</li>
+
+                    <li>6. Take Care.</li>
+
+                    <li>7. The Motto.</li>
+
+                    <li>8. Find Your Love.</li>
+                    
+                    <li>9. Robyn Warm Your Hands</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

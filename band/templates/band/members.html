@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Member List</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        body {
+            background-image: url("{% static 'The Band.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+        .list-container {
+            text-align: center;
+            font-size: larger;
+            font-style: oblique;
+            color: #0000ff;
+            font-family: Calibri, sans-serif;
+            font-weight: bold;
+        }
+        .list-container li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="display-4">Band Members</h1>
+                <ul class="list-container">
+                    <li>Marvin on the Decks</li>
+                    <li>Robyn on Vocals</li>
+                    <li>Devan on Drums</li>
+                    <li>Nadine on the Bass Acoustics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
