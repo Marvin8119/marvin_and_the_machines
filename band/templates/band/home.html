@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marvin and the Machines</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <style>
+        body {
+            background-image: url("{% static '20220108_181942.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .display-4 {
+            font-family: 'Fancy Font', cursive;
+            color: #ffffff;
+            background-image: linear-gradient(to right, #ff0000, #0000ff);
+            display: inline-block;
+            padding: 10px;
+        }
+        .button-container {
+            font-family: 'Fancy Font', cursive;
+            color: #22d63a;
+            background-image: linear-gradient(to right, #22ac2e, #dacc15);
+            text-align: center;
+            margin-top: 40px;
+            font-weight: bold
+        }
+    </style>
+</head>
+<body>
+    <h1 class="display-4">Welcome to Marvin and the Machines</h1>
+    <p>Home of the Greatest Hits, Life Stories and Clips of The Band and Their Journey from Darkness into Light.</p>
+    
+    <a href="{% url 'albums' %}">Albums</a>
+    <a href="{% url 'members' %}">Members</a>
+</body>
+</html>
