@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/Marvin8119/marvin_and_the_machines.git
 
 2.1 Navigate to the project directory:
-	cd your-repo
+	cd marvin_and_the_machines
 2.2 Create a virtual environment and activate it:
 	python -m venv venv
 	source venv/bin/activate  # On Windows, use: venv\Scripts\activate
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 3.1 Clone this repository to your local machine (if not already done):
 	git clone https://github.com/Marvin8119/marvin_and_the_machines.git
 3.2 Navigate to the project directory:
-	cd your-repo
+	cd marvin_and_the_machines
 3.3 Build the Docker image:
 	docker build -t marvin_and_the_machines-app .
 3.4 Run the Docker container:
